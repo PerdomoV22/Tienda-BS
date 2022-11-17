@@ -4,6 +4,6 @@ public enum MedioPago {
     Daviplata,
     Bancolombia,
     Nequi,
-    Movii,
+    Movil,
     PSE
 }

@@ -5,5 +5,6 @@ public enum Talla {
     S,
     M,
     L,
-    XL
+    XL,
+    XXL
 }

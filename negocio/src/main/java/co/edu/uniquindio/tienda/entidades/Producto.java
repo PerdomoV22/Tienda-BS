@@ -35,6 +35,7 @@ public class Producto implements Serializable {
     private String color;
 
     @Column(nullable = false)
+    @Enumerated(value = EnumType.STRING)
     private Talla talla;
 
     @Column(nullable = false, length = 300)

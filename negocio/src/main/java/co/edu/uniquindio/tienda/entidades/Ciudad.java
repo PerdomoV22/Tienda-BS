@@ -17,7 +17,6 @@ public class Ciudad implements Serializable {
 
     @Id
     @EqualsAndHashCode.Include
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer codigoPostal;
 
     @Column(nullable = false)
